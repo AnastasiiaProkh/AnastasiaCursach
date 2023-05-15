@@ -1,4 +1,4 @@
-using AnastasiaDBCursach.Context;
+ï»¿using AnastasiaDBCursach.Context;
 using AnastasiaDBCursach.Services.EventType;
 using AnastasiaDBCursach.Services.PositionService;
 using AnastasiaDBCursach.Services.StaffService;
@@ -20,7 +20,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<Ïðîõîð÷óêÊàñàÊîíöåðòíîÐîçâàæàëüíèõÇàõîä³âContext>();
+builder.Services.AddDbContext<ÐŸÑ€Ð¾Ñ…Ð¾Ñ€Ñ‡ÑƒÐºÐšÐ°ÑÐ°ÐšÐ¾Ð½Ñ†ÐµÑ€Ñ‚Ð½Ð¾Ð Ð¾Ð·Ð²Ð°Ð¶Ð°Ð»ÑŒÐ½Ð¸Ñ…Ð—Ð°Ñ…Ð¾Ð´Ñ–Ð²Context>();
 builder.Services.AddScoped<IStaffService, StaffService>();
 builder.Services.AddScoped<IPositionService, PositionService>();
 builder.Services.AddScoped<ITicketTypeService, TicketTypeService>();
